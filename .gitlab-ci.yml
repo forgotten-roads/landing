@@ -1,0 +1,11 @@
+image: forgottenroads/app-server-deps
+
+variables:
+  LEIN_ROOT: "1"
+
+before_script:
+  - lein deps
+
+test:
+  script:
+    - make unit
