@@ -1,4 +1,4 @@
-(ns mx.roads.forgotten.admin.core
+(ns mx.roads.forgotten.landing.core
   (:require [compojure.core :refer [GET defroutes]]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
@@ -9,6 +9,6 @@
   :hello-world)
 
 (defroutes routes
-  (GET "/admin" [:as req]
-    "This is the admin page")
-  (route/resources "/admin"))
+  (GET "/" [:as req]
+    "This is the landing page")
+  (route/resources "/"))

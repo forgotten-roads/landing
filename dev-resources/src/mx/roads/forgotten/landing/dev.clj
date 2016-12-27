@@ -1,13 +1,13 @@
-(ns mx.roads.forgotten.admin.dev
+(ns mx.roads.forgotten.landing.dev
   (:require [clojure.tools.logging :as log]
             [clojure.tools.namespace.repl :as repl]
             [clojure.walk :refer [macroexpand-all]]
             [com.stuartsierra.component :as component]
             [clojusc.twig :as logger]
             ;; api
-            [mx.roads.forgotten.app-server.components :as components]
-            [mx.roads.forgotten.app-server.core :as core]
-            [mx.roads.forgotten.app-server.util :as util]))
+            [mx.roads.forgotten.landing.components :as components]
+            [mx.roads.forgotten.landing.core :as landing]
+            [mx.roads.forgotten.landing.util :as util]))
 
 (def state :stopped)
 (def system nil)
@@ -19,7 +19,7 @@
     (log/error "System has aready been initialized.")
     (do
       (alter-var-root #'system
-        (constantly (components/init #'core/app)))
+        (constantly (components/init #'landing/app)))
       (alter-var-root #'state (fn [_] :initialized))))
   state)
 
