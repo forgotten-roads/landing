@@ -1,5 +1,5 @@
 (defproject mx.roads.forgotten/admin "0.0.1-SNAPSHOT"
-  :description "The FRMX Authentication and Authorization Service"
+  :description "The FRMX Admin Pages"
   :url "https://gitlab.com/forgotten-roads/auth"
   :scm {
     :name "git"
