@@ -13,17 +13,18 @@
     [nginx-clojure "0.4.4"]
     [nginx-clojure/nginx-clojure-embed "0.4.4"]
     ;; HTTP
+    [clj-http "3.3.0"]
     [compojure "1.6.0-beta1"]
+    [http-kit "2.2.0"]
     [ring/ring-core "1.6.0-beta6"]
     [ring/ring-defaults "0.3.0-beta1"]
     [ring/ring-devel "1.6.0-beta6"]
-    [clj-http "3.3.0"]
     ;; Database
     [com.taoensso/carmine "2.15.0"]
     ;; Messaging
     [clojurewerkz/machine_head "1.0.0-beta11-SNAPSHOT"]
     ;; Support & Util libs
-    [clojusc/env-ini "0.1.0"]
+    [clojusc/env-ini "0.2.0-SNAPSHOT"]
     [clojusc/twig "0.3.0"]
     [com.github.jnr/jnr-posix "3.0.31"]
     [com.stuartsierra/component "0.3.1"]
@@ -58,5 +59,5 @@
         [lein-simpleton "1.3.0" :exclusions [org.clojure/clojure]]]
       :source-paths ["dev-resources/src"]
       :repl-options {:init-ns mx.roads.forgotten.landing.dev}
-      :aot [mx.roads.forgotten.landing.server]
-      :main mx.roads.forgotten.landing.server}})
+      :aot [mx.roads.forgotten.landing.dev.server]
+      :main mx.roads.forgotten.landing.dev.server}})
