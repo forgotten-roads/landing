@@ -1,8 +1,8 @@
-# admin
+# landing
 
 [![Build Status][ci-badge]][ci][![Clojars Project][clojars-badge]][clojars][![Clojure version][clojure-v]](project.clj)
 
-*The Forgotten Roads Authentication and Authorization Service*
+*The Forgotten Roads Landing Page*
 
 [![][logo]][logo-large]
 
@@ -57,14 +57,14 @@ Distributed under the Apache License Version 2.0.
 
 <!-- Named page links below: /-->
 
-[ci]: https://gitlab.com/forgotten-roads/admin/pipelines
-[ci-badge]: https://gitlab.com/forgotten-roads/admin/badges/master/build.svg
-[deps]: http://jarkeeper.com/forgotten-roads/admin
-[deps-badge]: http://jarkeeper.com/forgotten-roads/admin/status.svg
+[ci]: https://travis-ci.org/forgotten-roads/landing
+[ci-badge]: https://travis-ci.org/forgotten-roads/landing.png?branch=master
+[deps]: http://jarkeeper.com/forgotten-roads/landing
+[deps-badge]: http://jarkeeper.com/forgotten-roads/landing/status.svg
 [logo]: resources/images/logo.png
 [logo-large]: resources/images/logo-large.png
-[tag-badge]: https://img.shields.io/gitlab/tag/forgotten-roads/admin.svg?maxAge=2592000
-[tag]: https://gitlab.com/forgotten-roads/admin/tags
+[tag-badge]: https://img.shields.io/gitlab/tag/forgotten-roads/landing.svg
+[tag]: https://gitlab.com/forgotten-roads/landing/tags
 [clojure-v]: https://img.shields.io/badge/clojure-1.8.0-blue.svg
-[clojars]: https://clojars.org/mx.roads.forgotten/admin
-[clojars-badge]: https://img.shields.io/clojars/v/mx.roads.forgotten/admin.svg
+[clojars]: https://clojars.org/mx.roads.forgotten/landing
+[clojars-badge]: https://img.shields.io/clojars/v/mx.roads.forgotten/landing.svg
