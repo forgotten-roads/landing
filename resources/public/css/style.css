@@ -63,6 +63,7 @@ h6 {
 }
         h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { color:#fc603b; }
 
+
 a, a:visited {
         color:#fc603b;
         -webkit-transition:color .2s ease, background-color .2s ease, background .2s ease, border .2s ease, outline .2s ease, opacity .2s ease-in-out;
@@ -848,13 +849,17 @@ img.parallax-slider.loaded, .ie img.parallax-slider, .ie9 img.parallax-slider {
                 margin-bottom:30px;
         }
                 #header .header-content .header-content-feature .fa {
-                        font-size:40px;
+                        color:#fc603b;
                         margin-bottom:10px;
+
                 }
                 #header .header-content .header-content-feature p {
                         font-size:13px;
                         line-height:18px;
                         margin:8px 0px 0px;
+                }
+                #header .header-content .header-content-feature a {
+                        color:#fc603b;
                 }
         #header .header-content .header-content-overlay {
                 background-color:rgba(0,0,0,.5);
@@ -885,7 +890,6 @@ img.parallax-slider.loaded, .ie img.parallax-slider, .ie9 img.parallax-slider {
                 line-height:32px;
                 margin:20px 0px 0px;
         }
-
 
 
 /* ========================= Elements ========================= */
@@ -1880,4 +1884,8 @@ img.parallax-slider.loaded, .ie img.parallax-slider, .ie9 img.parallax-slider {
         .clients-row .affa-client-logo:last-child { padding-bottom:0px; }
         .clients-row .affa-client-logo.no-border-right-sm, .clients-row .affa-client-logo.no-border-bottom-sm { border:0px; }
 
+}
+
+.header-content .header-content-title .highlight {
+	color:#fc603b !important;
 }
