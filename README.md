@@ -61,7 +61,7 @@ Distributed under the Apache License Version 2.0.
 [ci-badge]: https://travis-ci.org/forgotten-roads/landing.png?branch=master
 [deps]: http://jarkeeper.com/forgotten-roads/landing
 [deps-badge]: http://jarkeeper.com/forgotten-roads/landing/status.svg
-[logo]: resources/images/logo.png
+[logo]: resources/images/logo-small.png
 [logo-large]: resources/images/logo-large.png
 [tag-badge]: https://img.shields.io/gitlab/tag/forgotten-roads/landing.svg
 [tag]: https://gitlab.com/forgotten-roads/landing/tags
