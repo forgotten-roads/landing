@@ -1,6 +1,6 @@
-(ns mx.roads.forgotten.admin.util-test
+(ns mx.roads.forgotten.landing.util-test
   (:require [clojure.test :refer :all]
-            [mx.roads.forgotten.admin.util :as util])
+            [mx.roads.forgotten.landing.util :as util])
   (:import [java.net.URI]))
 
 (deftest ^:unit uri
